@@ -1,0 +1,46 @@
+body{
+    background-image: url("imagens/fundo.jpg");
+    background-size: 100% 100%; /* Deixa a ,imagem de fundo ocupando 100% da janela */
+    background-attachment: fixed; /* Deixa o a imagem de fundo fixa na tela */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+h1 {
+    color: #FFF; /* Aplica cor na fonte do H1 */
+}
+
+section{
+    background-color: #FFFFFF;
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza o elemento na tela */
+    margin-bottom: 30px; /* Margem no rodapé do elemento */
+    padding: 20px; /* Espaçamento interno no elemento */
+    border-radius: 20px; /* Arredondamento do cantos do objeto */
+    overflow: hidden;
+}
+
+section p {
+    text-align: justify;
+}
+
+#box-html {
+    border: 5px solid #F60;
+}
+
+#box-css {
+    border: 5px solid #09C;
+}
+
+#box-js {
+    border: 5px solid #FB0;
+}
+
+section img {
+    width: 100px; /* Aplica largura na imagem */
+    float: left; /* Faz a imagem fluar à esquerda */
+    margin-right: 20px; /*Aplica margem à direita da imagem*/
+}

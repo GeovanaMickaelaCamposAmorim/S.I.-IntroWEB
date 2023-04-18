@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu{
+    background-color: #000;
+}
+
+#menu > ul{
+    display: flex;
+    justify-content: center;
+}
+
+#menu a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #999;
+    text-decoration: none;
+    display: block;
+    /* converter o elemento em bloco para uso do padding */
+    padding: 20px;
+    transition: all .2s linear;
+}
+#menu a:hover{
+background-color: #03c;
+color: #fff;
+}
+
+#menu ul li{
+    list-style: none;
+    position: relative;
+    background-color: #000;
+}
+
+#menu ul li .submenu{
+    display: none;
+  position: absolute;
+  width: 150px;
+}
+
+#menu ul li:hover .submenu {
+    display: block;
+
+}
+
+#menu ul li .submenu{
+    border-bottom: 1px solid
+    #333;
+}
+
+#menu ul li .submenu a{
+   padding: 10px;
+}
