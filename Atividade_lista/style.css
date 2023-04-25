@@ -48,6 +48,7 @@ body{
     }
 
     #menu li ul{
+        display: none;
         position: relative;
         list-style: none;
          border: 2px solid #fff;
@@ -59,12 +60,13 @@ list-style: none;
 padding: 1px;
 }
 
-#menu li:hover .submenu{
+#menu ul li:hover .submenu{
 position: absolute;
 top: 135px;
 margin-top: 0;
 left: 215px;
 z-index: 1;
+display: block;
 }
 
 #txt {
