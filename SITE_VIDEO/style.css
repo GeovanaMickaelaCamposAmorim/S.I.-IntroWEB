@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cabecalho #video{
+    width: 100%;
+}
+
+#cabecalho #titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    position: absolute; /* pode escolher onde fica por direita, esquerda...*/
+}
+
+#video{
+    width: 100%;
+}
